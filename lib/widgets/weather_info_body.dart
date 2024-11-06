@@ -3,7 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:weather_app/Cubits/GetWeatherCubit/WeatherCubit.dart';
 class WeatherInfoBody extends StatelessWidget {
    const WeatherInfoBody({super.key});
-
+//
   @override
   Widget build(BuildContext context) {
     var weatherModel=BlocProvider.of<GetWeatherCubit>(context).weatherModel;
